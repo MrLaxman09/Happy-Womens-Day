@@ -1,0 +1,287 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* Navbar Styling */
+.navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 90px;
+    opacity: 0.7;
+    z-index: -40;
+    
+   
+}
+#logo{
+    margin: 10px 12px;
+}
+#logo img{
+    border: 1px;
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    transition: all 0.59s;
+}
+#logo img:hover{
+    transform: scale(2) translate(16px , 16px);
+    box-shadow: 5px 5px 40px red;
+}
+/* navbar list styling */
+.navigation{
+    display: flex;
+    align-items: center;
+    
+}
+.navigation li{
+    list-style: none;
+}
+.navigation li a{
+    font-family: "Sour Gummy", sans-serif;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 12px 44px;
+    font-size: 19px;
+    transition: all 0.2s ease-out;
+}
+.navigation li a:hover{
+    transform: translateY(10px);
+    background-color: rgba(0, 0, 0, 0.642);
+    color: rgb(214, 252, 24);
+    border: 1px;
+    border-radius: 52px;
+    box-shadow: 5px 5px 50px red;
+}
+/* section ko styling kar rhe hai */
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 200px;
+    
+}
+#home::before{
+    content: "";
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 515px;
+    opacity: 0.7;
+    z-index: -1;
+    background: url('https://codedesign.org/storage/app/media/uploaded-files/event%20management%20company.png') no-repeat center center/cover;
+    
+
+}
+.primary-1{
+   font-size: 2.3rem;
+   margin: 25px;
+   color: #17043e;
+   text-shadow: 1px 2px 2px red;
+}
+#home p{
+    /* color: white; */
+    font-size: 16px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    text-shadow: 1px 2px 52px wheat;
+}
+#btn{
+    font-family: "Kanit", sans-serif;
+    padding: 8px 22px;
+    margin: 24px;
+    background-color: rgba(0, 128, 0, 0.701);
+    border-radius: 52px;
+    border: 1px;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+    align-items: center;
+}
+#btn a{
+    text-decoration: none;
+    color: black;
+}
+#btn:hover{
+    background-color: green;
+    color: black;
+    /* font-size: 20px; */
+    transform: scale(1.3);
+    box-shadow: 8px 8px 10px rgba(64, 193, 244, 0.511);
+
+}
+
+/* section 1 styling     box  */
+#centre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.center-box{
+    height: 320px;
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 12px;
+    text-align: center;
+    margin: 8px 23px;
+    box-shadow: 12px 12px 30px blue;
+    transition: all 0.6s ease-out;
+    
+}
+.center-box img{
+    border: 1px;
+    border-radius: 42px;
+    height: 142px;
+    width: 363px;
+    padding: 25px 5px;
+
+}
+.center-box h2{
+   margin: 10px 22px;
+   
+
+}
+.center-box:hover{
+    transform: translateY(5px);
+    /* border: 1px;
+    border-radius: 52px; */
+    box-shadow: 5px 5px 50px red;
+}
+
+#centre-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+       /* Here Places styling         means section-2 */
+#places{
+    margin: 45px 200px;
+    font-size: 30px;
+}
+.center-2-box{
+    height: 380px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 12px;
+    text-align: center;
+    margin: 18px 23px;
+    transition: all 0.5s ;
+    
+}
+.center-2-box:hover{
+    transform: translateY(5px);
+    box-shadow: 2px 2px 30px rgb(38, 249, 56);
+    background-color: rgba(173, 240, 173, 0.559);
+    
+    
+}
+.center-2-box img{
+    border: 1px;
+    border-radius: 42px;
+    height: 142px;
+    width: 363px;
+    padding: 15px 5px;
+    transition: all ;
+    
+}
+
+.center-2-box h3{
+   margin: 12px 12px;
+   font-size: 20px;
+}
+
+     /* Form styling */
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    background-color: yellowgreen;
+}
+
+form h1{
+    font-size: 41px;
+    
+}
+.contact-box{ 
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 25px 10px;
+    /* background: url(''); */
+    transition: all 0.4;
+    box-shadow: 5px 5px 23px blue;
+    
+}
+.contact-box:hover{
+    box-shadow: 5px 5px 23px red;
+}
+.form-group{
+    display: flex;
+    margin: 26px 20px;
+    text-align: center;
+    height: 52px;
+    
+    
+}
+.form-group label{
+    font-size: 18px;
+}
+.form-group input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+    margin: 5px 25px;
+    padding: 2px 12px;
+} 
+.text-era{
+    font-size: 18px;
+    margin: 5px 22px;
+    border-radius: 12px;
+    padding: 5px 5px;
+    
+}
+.form-btn{
+    margin: 25px 190px;
+    width: 400px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: rgba(0, 128, 0, 0.842);
+    transition: all 0.3;   
+}
+.form-btn:hover{
+    font-size: 20px;
+    box-shadow: 5px 5px 12px blue;  
+    
+}
+
+/* footer styling */
+
+.footer{
+    background-color: rgb(16, 8, 8);
+    text-align: center;
+    font: 20px;
+    color: white;
+    padding: 12px 52px;
+}
+
