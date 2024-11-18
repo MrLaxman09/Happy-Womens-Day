@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* .navbar{
+    flex-direction: column;
+} */
+
+.navbar ul li a{
+  
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.center-box{
+   text-align: center;
+    /* margin: 10px 25px; */
+    width: 250px;
+/*     
+    background-color: aqua; */
+   
+    
+}
+#btn {
+ 
+    padding: 2px 41px;
+    width: 175px;
+   
+}
+.primary-1 {
+    font-size: 1.6rem;
+    width: 241px;
+    
+}
+.center-box {
+    height: 320px;
+    /* width: 450px; */
+    border: 2px solid black;
+    border-radius: 12px;
+    text-align: center;
+    margin: 8px 23px;
+    box-shadow: 12px 12px 30px blue;
+    transition: all 0.6s ease-out;
+}
+.center-2-box {
+    height: 613px;
+    width: 91%;
+    
+}
+#centre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    /* bad me likhe hai  */
+    margin-top: 120px;
+    margin-bottom: 25px;
+    
+
+}
